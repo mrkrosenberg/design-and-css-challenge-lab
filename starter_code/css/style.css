@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 
@@ -66,17 +66,139 @@ body {
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/header_bg.jpg) no-repeat center center rgb(134,141,157);
   background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
 }
 
 footer {
-
+  text-align: center;
+  width: 100%;
+  background-color: #121212;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+header h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f0efef;
+  margin: 10px auto auto 40px;
+  padding: 40px;
+}
+
+header h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #f0efef;
+  text-align: center;
+  margin: 100px auto;
+}
+
+#getit {
+  text-align: center;
+}
+
+#get {
+  background-color: #f9e42e;
+  color: #033048;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0 50px 0;
+  padding: 10px 30px;
+
+}
+
+main h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ol {
+  margin: 0 200px 0 25px;
+}
+
+ol li {
+  list-style-type: disc;
+  padding: 2px 0;
+}
+
+.benefits {
+  margin: 50px 100px 20px 200px;
+  padding: 1px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#quote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300i;
+  font-size: 18px;
+  color: #f0efef;
+  text-align: center;
+  background: url(../images/header_bg.jpg) no-repeat center bottom rgb(134,141,157);
+  background-size: cover;
+  padding: 20px 300px;
+  /*margin: 100px 0 0 0;*/
+}
+
+#quote p {
+  font-style: italic;
+}
+
+#button {
+  background-color: #f9e42e;
+  height: 15%;
+  margin: 0;
+}
+
+#sign {
+  color: #f0efef;
+  background-color: #033048;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px auto;
+  padding: 10px 30px;
+}
+
+h4 {
+  background-color: #121212;
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 50px 50px;
+}
+
+#fb {
+  padding: 10px;
+}
+
+#tw {
+  padding: 10px;
+}
+
+#copyright {
+  color: #f0efef;
+}
+
+
+
+
+
 
 
 
